@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/timer-style.css">
+</head>
+<body>
+<div class="timer-container">
+    <div class="buttons">
+        <button id="five-minutes">5 Minutes</button>
+        <button id="fifteen-minutes">15 Minutes</button>
+        <button id="twenty-five-minutes">25 Minutes</button>
+    </div>
+    <div class="timer">
+        <span id="minutes">00</span>:<span id="seconds">00</span>
+    </div>
+    <div class="controls">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+    </div>
+</div>
+{#<audio id="audio">#}
+{#  <source src="/materials/alarm.wav" type="audio/mpeg">#}
+{#</audio>#}
+<script src="/static/timer-script.js"></script>
+</body>
+</html>
